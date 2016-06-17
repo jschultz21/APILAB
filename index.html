@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link href="https://fonts.googleapis.com/css?family=Cantarell|Fjalla+One" rel="stylesheet">
   <title>Broaden</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -9,11 +10,17 @@
   <script src="app.js"></script>
 
   <form id="search">
-    <h1>Artist search</h1>
-    <input type="search" name="keyword" id="keyword"/>
-    <button type="button" class="search">Search</button>
+    <h2>search here:</h2>
+    <input type="search" name="keyword" id="keyword" placeholder="Type an artist"/>
+    <button id = "button" type="button" class="search">Submit</button>
   </form>
 
-  <img src = "https://i.ytimg.com/vi/0Mz_LhuSNAw/maxresdefault.jpg">
+
+<div id = "main">
+  <h1>Related Artists</h1>
+  <div id = "relatedArtists">
+  </div>
+</div>
+
 </body>
 </html>

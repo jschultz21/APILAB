@@ -1,3 +1,70 @@
-body img{
-  padding:10px;
+*{
+  margin: 0;
+  padding:0;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;*/
+  font-family: 'Cantarell', sans-serif;
+  font-size: 16px;
+}
+
+body {
+  padding: 70px;
+  display:flex;
+  justify-content:center;
+  color: #171B1C;
+}
+
+h1{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 70px;
+  line-height: 100px;
+  text-align: center;
+}
+
+h2{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center
+}
+
+form {
+  width: 320px;
+  font-family: 'Cantarell', sans-serif;
+  margin-top: 50px;
+}
+
+img{
+  padding:5px;
+  height: 150px;
+  float: left;
+}
+
+#relatedArtists p {
+  margin-top: -100px;
+}
+
+button {
+  margin: 0px 0px;
+}
+
+input {
+  background-color: white;
+}
+
+#main {
+  padding: 15px;
+  width: 1200px;
+  /*height: 800px;*/
+  margin 0 auto;
+  margin-left: 20px;
+  border-radius: 15px;
+  background-color: lightsalmon;
+
+}
+
+#relatedArtists {
+  background-color: lightsalmon;
+  /*width: 800px;*/
 }
