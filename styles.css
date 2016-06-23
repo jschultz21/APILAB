@@ -12,7 +12,12 @@ body {
   padding: 70px;
   display:flex;
   justify-content:center;
-  color: #171B1C;
+  color: #202C30;
+  background-image: url("bg.jpg");
+
+  background-size: cover;
+  /*background-repeat: no-repeat;
+  background-position: center;*/
 }
 
 h1{
@@ -26,7 +31,7 @@ h2{
   font-family: 'Fjalla One', sans-serif;
   font-size: 40px;
   line-height: 40px;
-  text-align: center
+  text-align: center;
 }
 
 form {
@@ -35,10 +40,24 @@ form {
   margin-top: 50px;
 }
 
+
+#main {
+  padding: 15px;
+  width: 1200px;
+  /*height: 800px;*/
+  margin 0 auto;
+  margin-left: 20px;
+  border-radius: 15px;
+  background-color: lightsalmon;
+  opacity:.85;
+
+}
+
 img{
   padding:5px;
   height: 150px;
   float: left;
+  opacity: 1;
 }
 
 #relatedArtists p {
@@ -51,20 +70,4 @@ button {
 
 input {
   background-color: white;
-}
-
-#main {
-  padding: 15px;
-  width: 1200px;
-  /*height: 800px;*/
-  margin 0 auto;
-  margin-left: 20px;
-  border-radius: 15px;
-  background-color: lightsalmon;
-
-}
-
-#relatedArtists {
-  background-color: lightsalmon;
-  /*width: 800px;*/
 }
